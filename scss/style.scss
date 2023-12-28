@@ -12,18 +12,20 @@
     }
 }
 
-.header .decoration-star {
-    top: 80px;
-    left: -200px;
-    width: 500px;
-    opacity: .7;
-}
+.header {
+    .decoration-star {
+        top: 80px;
+        left: -200px;
+        width: 500px;
+        opacity: .7;
+    }
 
-.header .decoration-star-2 {
-    top: 80px;
-    right: -200px;
-    width: 500px;
-    opacity: .7;
+    .decoration-star-2 {
+        top: 80px;
+        right: -200px;
+        width: 500px;
+        opacity: .7;
+    }
 }
 
 .navbar-sticky {
@@ -36,6 +38,13 @@
     transition: all .5s ease-in-out;
 }
 
+.details {
+    .decoration-star {
+        left: -200px;
+        width: 500px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .xl-text {
         font-size: 50px;
@@ -44,19 +53,19 @@
     .header {
         margin-top: 0px !important;
         text-align: center;
-    }
 
-    .header .decoration-star {
-        left: -100px;
-        width: 250px;
-    }
+        .decoration-star {
+            left: -100px;
+            width: 250px;
+        }
 
-    .header .decoration-star-2 {
-        right: -100px;
-        width: 250px;
-    }
+        .decoration-star-2 {
+            right: -100px;
+            width: 250px;
+        }
 
-    .header .image-container {
-        margin-top: 30px;
+        .image-container {
+            margin-top: 30px;
+        }
     }
 }
