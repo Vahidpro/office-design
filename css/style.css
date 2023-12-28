@@ -1,1 +1,7 @@
+.btn-outline-secondary {
+  color: var(--bs-secondary);
+}
 
+.btn-outline-secondary:hover {
+  color: #fff;
+}

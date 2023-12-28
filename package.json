@@ -1,10 +1,10 @@
 {
-	"name": "book-master",
+	"name": "office-design",
 	"version": "1.0.0",
 	"description": "An online book reading service",
 	"main": "index.js",
 	"scripts": {
-		"sass.build": "sass --no-source-map --watch scss:css "
+		"sass:build": "sass --no-source-map --watch scss:css "
 	},
 	"author": "Vahid Porki",
 	"license": "MIT",
